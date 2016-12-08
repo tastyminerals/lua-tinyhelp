@@ -17,11 +17,11 @@ end
 function _read()
     -- identify user lua version
     if _VERSION == "Lua 5.3" then
-        fname = path.join("docs","lua_53.xml")
+        fname = path.join("tiny_data","lua_53.xml")
     elseif _VERSION == "Lua 5.2" then
-        fname = path.join("docs","lua_52.xml")
+        fname = path.join("tiny_data","lua_52.xml")
     elseif _VERSION == "Lua 5.1" then
-        fname = path.join("docs","lua_51.xml")
+        fname = path.join("tiny_data","lua_51.xml")
     end
     local fhandle = io.open(fname, 'r')
     local data = fhandle:read("*a")
