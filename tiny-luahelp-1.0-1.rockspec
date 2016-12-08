@@ -9,6 +9,7 @@ description = {
    detailed = [[
       Lua docs help system implementation. 
       Similar to help system used in Python interpreter.
+
    ]],
    homepage = "https://github.com/tastyminerals/tiny-luahelp",
    license = "MIT"
@@ -21,7 +22,7 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-       luahelp = "src/tiny-luahelp.lua"
+       tinyhelp = "src/tiny-luahelp.lua"
    },   
    copy_directories = {"tiny_data"}
 }
