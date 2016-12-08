@@ -12,7 +12,7 @@ else:
     from urllib import urlopen
 
 
-url = "https://www.lua.org/manual/5.1/manual.html"
+url = "https://www.lua.org/manual/{0}/manual.html".format(sys.argv[1])
 page = urlopen(url)
 html = page.read()
 
