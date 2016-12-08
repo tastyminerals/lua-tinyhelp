@@ -1,16 +1,16 @@
-package = "luahelp"
+package = "tiny-luahelp"
 version = "1.0-1"
 source = {
-   url = "https://github.com/tastyminerals/luahelp",
+   url = "https://github.com/tastyminerals/tiny-luahelp/raw/master/tiny-luahelp-1.0.tar.gz",
    tag = "v1.0"
 }
 description = {
-   summary = "Simple Lua docs xml reader.",
+   summary = "Simple Lua docs reader available from interpreter.",
    detailed = [[
       Lua docs help system implementation. 
       Similar to help system used in Python interpreter.
    ]],
-   homepage = "https://github.com/tastyminerals/luahelp",
+   homepage = "https://github.com/tastyminerals/tiny-luahelp",
    license = "MIT"
 }
 dependencies = {
@@ -20,6 +20,8 @@ dependencies = {
 }
 build = {
    type = "builtin",
-   luahelp = "src/luahelp.lua",
+   modules = {
+       luahelp = "src/tiny-luahelp.lua"
+   },   
    copy_directories = {"docs"}
 }
