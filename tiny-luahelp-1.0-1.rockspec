@@ -23,5 +23,5 @@ build = {
    modules = {
        luahelp = "src/tiny-luahelp.lua"
    },   
-   copy_directories = {"docs"}
+   copy_directories = {"data"}
 }
