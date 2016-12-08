@@ -1,2 +1,2 @@
-# luahelp
-Tiny simple lua docs xml reader. 
+# tiny-luahelp
+Simple lua docs reader that you can load inside Lua interactive shell. 
