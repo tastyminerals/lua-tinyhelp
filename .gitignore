@@ -1,5 +1,6 @@
 lua-tinyhelp-1.0/
 *.py
+*.rockspec
 
 # Compiled Lua sources
 luac.out
