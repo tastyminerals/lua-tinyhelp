@@ -1,7 +1,7 @@
-package = "tiny-luahelp"
+package = "lua-tinyhelp"
 version = "1.0-1"
 source = {
-   url = "https://github.com/tastyminerals/tiny-luahelp/raw/master/tiny-luahelp-1.0.tar.gz",
+   url = "https://github.com/tastyminerals/lua-tinyhelp/raw/master/lua-tinyhelp-1.0.tar.gz",
    tag = "v1.0"
 }
 description = {
@@ -11,7 +11,7 @@ description = {
       Similar to help system used in Python interpreter.
 
    ]],
-   homepage = "https://github.com/tastyminerals/tiny-luahelp",
+   homepage = "https://github.com/tastyminerals/lua-tinyhelp",
    license = "MIT"
 }
 dependencies = {
@@ -22,7 +22,7 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-       tinyhelp = "src/tiny-luahelp.lua"
+       tinyhelp = "src/lua-tinyhelp.lua"
    },   
-   copy_directories = {"tiny_data"}
+   copy_directories = {"tinyhelp"}
 }

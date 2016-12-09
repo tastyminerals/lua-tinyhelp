@@ -1,3 +1,6 @@
+lua-tinyhelp-1.0/
+*.py
+
 # Compiled Lua sources
 luac.out
 
