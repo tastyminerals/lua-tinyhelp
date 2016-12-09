@@ -1,5 +1,5 @@
 # lua-tinyhelp
-Simple lua docs reader that you can use inside and outside Lua interactive shell.
+Lua does not have a build-in help system. This is a simple lua docs reader that you can use inside and outside Lua interactive shell.
 Similar to Python interactive shell help function.
 
 ![](http://i.imgur.com/8G8zLYz.png)
