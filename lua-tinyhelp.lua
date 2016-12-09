@@ -6,7 +6,7 @@ local luahelp = {}
 require "pl"
 
 -- help files path
-fpath = path.join(os.getenv("HOME"),".lua", "tinyhelp")
+fpath = path.join(os.getenv("HOME"),".lua-tinyhelp")
 
 
 function _clean(text)
