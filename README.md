@@ -2,8 +2,7 @@
 Simple lua docs reader that you can use inside and outside Lua interactive shell.
 Similar to Python interactive shell help function.
 
-
-
+![](http://i.imgur.com/8G8zLYz.png)
 
 
 ### INSTALL
@@ -30,6 +29,4 @@ help = h.help
 Now you can use `help` function as:
 
 
-
-
-
+![](http://i.imgur.com/rZQ8gMu.png)
