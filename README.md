@@ -7,7 +7,7 @@ Similar to Python interactive shell help function.
 
 ### INSTALL
 
-To use the script **outside** of the Lua shell.
+To use the script **outside** of Lua interpreter.
 
 - Download `lua-tinyhelp.lua`
 - Put it in `/usr/local/bin`
