@@ -7,6 +7,11 @@ Similar to Python interactive shell help function.
 
 ### INSTALL
 
+Dependency:
+
+- `sudo luarocks install penlight`
+
+
 To use the script **outside** of Lua interpreter.
 
 - Download `lua-tinyhelp.lua`
