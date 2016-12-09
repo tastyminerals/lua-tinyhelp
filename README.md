@@ -22,8 +22,10 @@ To use in **Lua interpreter**.
 - Add to your **~/.bashrc** the following `LUA_PATH="$LUA_PATH;/home/$USER/.lua-tinyhelp/?.lua"`
 - In Lua interpreter do:
 
+```
 h = require("lua-tinyhelp")
 help = h.help
+```
 
 Now you can use `help` function as:
 
