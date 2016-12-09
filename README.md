@@ -26,7 +26,7 @@ h = require("lua-tinyhelp")
 help = h.help
 ```
 
-Now you can use `help` function as:
+Now you can use `help` function as `help("YOUR QUERY")`:
 
 
 ![](http://i.imgur.com/rZQ8gMu.png)
