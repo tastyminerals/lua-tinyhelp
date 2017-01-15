@@ -6,7 +6,7 @@ local luahelp = {}
 require "pl"
 
 -- help files path
-fpath = path.join(os.getenv("HOME"),".lua", "tinyhelp")
+fpath = path.join(os.getenv("HOME"),".lua-tinyhelp")
 
 
 function _clean(text)
@@ -48,7 +48,7 @@ function luahelp.help(query)
         end
         -- search function match
         for initem in item:childtags() do
-            name = initem.attr["name"]
+            name = initem.attr.name
             if (name:find(query) == 1) then
                 print(name)
                 print(_clean(initem[1]))
